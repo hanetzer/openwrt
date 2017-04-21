@@ -239,6 +239,7 @@ platform_check_image() {
 	e600g-v2|\
 	e600gac-v2|\
 	ebr-2310-c1|\
+	ens200|\
 	ens202ext|\
 	epg5000|\
 	esr1750|\
@@ -775,6 +776,7 @@ platform_do_upgrade() {
 		;;
 	cap4200ag|\
 	eap300v2|\
+	ens200|\
 	ens202ext)
 		platform_do_upgrade_allnet "0xbf0a0000" "$ARGV"
 		;;
